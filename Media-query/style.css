@@ -1,0 +1,50 @@
+body {
+  background-color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#nav {
+  margin-right: 150px;
+}
+#navbar {
+  padding: 30px 30px;
+}
+.d-flex {
+  display: flex;
+}
+.justify-right {
+  justify-content: right;
+}
+.nav-links {
+  text-decoration: none;
+}
+.gap {
+  gap: 50px;
+}
+.nav-bg {
+  background-color: rgb(5, 5, 65);
+}
+.border {
+  border: 2px solid rgb(228, 88, 228);
+}
+.nav-color {
+  color: aliceblue;
+}
+.head {
+  font-size: 25px;
+  text-align: left;
+  color: rgb(166, 166, 194);
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
